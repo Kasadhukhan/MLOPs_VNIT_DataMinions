@@ -1,0 +1,18 @@
+# Dataset files
+data/*.csv
+data/train.csv
+data/preprocessed_data.csv
+
+# Model files
+models/*.joblib
+
+# MLflow
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints

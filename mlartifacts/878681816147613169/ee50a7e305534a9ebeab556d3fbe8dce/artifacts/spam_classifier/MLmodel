@@ -1,0 +1,20 @@
+artifact_path: spam_classifier
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.21
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.20.1
+model_size_bytes: 1126877
+model_uuid: f631be5157d1407b9ebbb0bdaeaa65b5
+run_id: ee50a7e305534a9ebeab556d3fbe8dce
+utc_time_created: '2025-02-15 19:44:09.495034'

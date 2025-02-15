@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/878681816147613169/ee50a7e305534a9ebeab556d3fbe8dce/artifacts
+end_time: 1739648668346
+entry_point_name: ''
+experiment_id: '878681816147613169'
+lifecycle_stage: active
+run_id: ee50a7e305534a9ebeab556d3fbe8dce
+run_name: spam_detection_training
+run_uuid: ee50a7e305534a9ebeab556d3fbe8dce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739648631060
+status: 3
+tags: []
+user_id: sadas

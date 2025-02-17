@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/878681816147613169/ad956c8ef3614502ab54ec99ffc48aae/artifacts
+end_time: 1739811045797
+entry_point_name: ''
+experiment_id: '878681816147613169'
+lifecycle_stage: active
+run_id: ad956c8ef3614502ab54ec99ffc48aae
+run_name: trial_139
+run_uuid: ad956c8ef3614502ab54ec99ffc48aae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739811045452
+status: 3
+tags: []
+user_id: ankushkatre

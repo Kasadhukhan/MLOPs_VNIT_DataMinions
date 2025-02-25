@@ -23,6 +23,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Setup dummy mlruns folder for CI
+      run: |
+        mkdir -p mlruns/0
+        echo "Dummy file for CI" > mlruns/0/README.txt
+
     - name: Login to Docker Hub
       uses: docker/login-action@v1
       with:
@@ -34,7 +39,7 @@ jobs:
 
     - name: Test Docker image
       run: |
-        docker run -d -p 8000:8000 spam-detector
+        docker run -d -p 8000:8000 -p 5000:5000 spam-detector
         sleep 10  # Wait for container to start
         curl http://localhost:8000/health
 
